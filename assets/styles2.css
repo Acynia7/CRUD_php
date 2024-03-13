@@ -1,0 +1,111 @@
+/* styles2.css */
+
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de base pour le corps de la page */
+body {
+    margin-top: 50px;
+    background-image :url("background.jpg"); 
+    background-repeat:no-repeat; 
+    background-position:center; 
+    background-size:cover; 
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre */
+.titre {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titre h1 {
+    color: #333;
+}
+
+/* Style pour le formulaire de confirmation */
+.conf {
+    text-align: center;
+}
+
+.conf h2 {
+    margin-bottom: 20px;
+}
+
+/* Style pour les boutons */
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button a.button {
+    background-color: #007bff;
+}
+
+.button a.button:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour le bouton "Non" */
+.button a.cancel {
+    background-color: #dc3545;
+}
+
+.button a.cancel:hover {
+    background-color: #c82333;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.create{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 600px;
+}

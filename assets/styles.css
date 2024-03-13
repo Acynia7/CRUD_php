@@ -1,0 +1,114 @@
+
+/* Style du corps de la page */
+body {
+    background-image :url("background.jpg"); 
+    background-repeat:no-repeat; 
+    background-position:center; 
+    background-size:cover; 
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+}
+
+/* Style du formulaire */
+form {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du titre */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style du paragraphe */
+p {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-left:400px;
+}
+
+.logout {
+    margin-left:400px;
+}
+
+.add {
+    margin-left:400px;
+}
+
+/* Style des champs de formulaire */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Style du lien */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+/* Style de base pour le tableau */
+.table {
+    width: 50%;
+    margin-left:400px;
+    border-collapse: collapse;
+}
+
+/* Style pour les cellules d'en-tête */
+.table th {
+    background-color: #007bff; /* Couleur de fond de l'en-tête */
+    color: #fff; /* Couleur du texte de l'en-tête */
+    text-align: center; /* Centrage du texte dans les en-têtes */
+    padding: 10px; /* Espacement à l'intérieur des cellules d'en-tête */
+}
+
+/* Style pour les cellules de données */
+.table td {
+    padding: 10px; /* Espacement à l'intérieur des cellules de données */
+    text-align: center; /* Centrage du texte dans les cellules de données */
+    border-bottom: 1px solid #ddd; /* Bordure basse pour chaque cellule de données */
+}
+
+/* Style pour les lignes impaires (pour une meilleure lisibilité) */
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Couleur de fond pour les lignes impaires */
+}
+
+/* Style pour les liens dans les cellules de données */
+.table td a {
+    text-decoration: none; /* Suppression du soulignement des liens */
+}
+
+/* Style pour les images dans les cellules de données */
+.table td img {
+    vertical-align: middle; /* Alignement vertical au centre de l'image */
+}
